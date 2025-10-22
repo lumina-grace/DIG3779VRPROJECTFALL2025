@@ -1,0 +1,3 @@
+first impressions of Bug b, before i know whats broken, everything is bigger than i would think it should be. We know its not the computer because im in the lab.
+
+When i press play it looks as if the depth of view is too short for the large scene. it cuts off. Still dont know if i need to make the player bigger or if im supposed to be small.
