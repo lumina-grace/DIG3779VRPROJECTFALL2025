@@ -1,3 +1,48 @@
 first impressions of Bug b, before i know whats broken, everything is bigger than i would think it should be. We know its not the computer because im in the lab.
 
-When i press play it looks as if the depth of view is too short for the large scene. it cuts off. Still dont know if i need to make the player bigger or if im supposed to be small.
+I guess i kinda skipped to the disabling objects steps since  didn't know what exactly to google to describe what i know remember is clipping planes , which i knew would be found under the camera component
+
+
+2:30 ish pm Wednesday oct 22
+
+When i press play it looks as if the depth of view is too short for the large scene. it cuts off. Still don't know if i need to make the player bigger or if im supposed to be small.
+
+git push 
+
+Im going to check the Xr origin now even though its last on the list.
+
+under Gaze interactor, disabled disable visuals when blocked
+nope
+
+uncheck gaze interactor
+nope undo 
+ push 
+
+gonna put it different Xr mobile origin
+nah undo that that's not right
+
+clipping planes! how bout i just add a few zeros to at 10000 on the far side
+
+I did it ! no more clipping! no googling required. I would've googled if i was positive this was the actual issue i was supposed to fix, i was just going off a hunch we will see. 
+
+i should push this and then see if i can get going any faster or get bigger as the player.
+
+scaled up player/xr origin.
+
+tripled move speed under locomotion child. 
+not that much faster, i remember this always moving kind of slow so I'm not quite sure I'm fixing the right problem. maybe i already found it with the clipping thing.
+
+If the problem was clipping or scale, i fixed it. if it was movement speed, kind of sorta fixed it. if its anything else it honestly isn't obvious enough
+
+Jackson insinuated i had a bandaid solution. boo hoo. now what. 
+
+googled : clipping bugs in uniter XR origin
+https://discussions.unity.com/t/unity-xri-sample-scene-main-camera-has-strange-clipping/1629449
+video isn't there. figures.
+on the solved section it mentions Occlusions Mesh. Let me see if i can find that.
+
+now i added the script that was left under the solved section of the post. left in the resource folder.
+
+i keep putting on bandaids but i dont even know where BLEEDING is happening.
+
+i dont know what else to do so im just going to save for today
